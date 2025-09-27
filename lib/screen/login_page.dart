@@ -94,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
     password = passwordC.text.trim();
     // print("Username : $username");
     // print("Password : $password");
-    if (username == "Rian" && password == "123") {
+    if (username == "admin" && password == "123") {
       //login berhasil
       setState(() {
         text = "Login Berhasil!";
